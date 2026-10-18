@@ -3,22 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Información oficial de LAZARUS, una aplicación de escritorio para organizar ideas y videos propios.">
-  <title>LAZARUS</title>
+  <meta name="description" content="Información oficial, términos y privacidad de LAZARUS, una aplicación de escritorio para organizar ideas y videos propios.">
+  <title>LAZARUS — Información oficial</title>
   <style>
-    :root{color-scheme:dark;--bg:#101014;--panel:#19191f;--text:#f4f4f5;--muted:#b6b6c0;--accent:#fe2c55}
-    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
-    main{width:min(760px,calc(100% - 32px));margin:10vh auto;padding:clamp(24px,6vw,56px);background:var(--panel);border:1px solid #303039;border-radius:20px}
-    h1{font-size:clamp(2.4rem,8vw,4.5rem);line-height:1;margin:0 0 18px}p{color:var(--muted)}a{color:#ff7891}nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:32px}footer{margin-top:40px;color:#90909b;font-size:.9rem}
+    :root{color-scheme:dark;--bg:#101014;--panel:#19191f;--text:#f4f4f5;--muted:#c4c4cc;--accent:#ff7891;--border:#45454f}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif}
+    main{width:min(760px,calc(100% - 32px));margin:8vh auto;padding:clamp(24px,6vw,56px);background:var(--panel);border:1px solid var(--border);border-radius:20px}
+    h1{font-size:clamp(2.4rem,8vw,4.5rem);line-height:1;margin:0 0 18px}p{color:var(--muted)}a{color:var(--accent);text-underline-offset:.18em}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #fff;outline-offset:4px;border-radius:2px}
+    .skip{position:absolute;top:8px;left:8px;transform:translateY(-160%);padding:8px 12px;background:#fff;color:#111;z-index:2}.skip:focus{transform:none}
+    nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:32px}footer{margin-top:40px;color:var(--muted);font-size:.95rem}
   </style>
 </head>
-<body><main>
+<body><a class="skip" href="#contenido">Saltar al contenido</a><main id="contenido">
   <h1>LAZARUS</h1>
-  <p>Aplicación de escritorio para organizar ideas y videos propios. Permite conectar una cuenta de TikTok mediante Login Kit y, con autorización, preparar borradores de video para que la persona usuaria los revise en TikTok.</p>
-  <nav aria-label="Información legal">
-    <a href="terms.html">Términos de servicio</a>
-    <a href="privacy.html">Política de privacidad</a>
+  <p>Aplicación de escritorio para organizar ideas y videos propios. Permite conectar una cuenta de TikTok mediante Login Kit y, con autorización, preparar un borrador de video para que la persona usuaria lo revise en TikTok.</p>
+  <nav aria-label="Documentos y políticas">
+    <a href="terms.html">Términos y condiciones</a>
+    <a href="privacy.html">Privacidad, cookies y datos</a>
   </nav>
-  <footer>Responsable: Angel Gabriel Hernandez Flores · Contacto: <a href="mailto:4ngelhernandez.010@gmail.com">4ngelhernandez.010@gmail.com</a></footer>
+  <footer><p>Responsable: Angel Gabriel Hernandez Flores<br>Contacto: <a href="mailto:4ngelhernandez.010@gmail.com">4ngelhernandez.010@gmail.com</a></p><p>Este sitio no tiene formularios, imágenes, analítica ni anuncios. Consulta la <a href="privacy.html#cookies">política de cookies</a>.</p></footer>
 </main></body>
 </html>
